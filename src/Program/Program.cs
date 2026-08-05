@@ -7,6 +7,15 @@
         Console.WriteLine(Multiplication.Multiply(5, 6));
         Console.WriteLine(Division.Divide(7, 8));
     }
+// Esta clase implementa la operación divide    
+    public class Division
+    {
+    public static double Divide(int a, int b)
+    {
+        return (double)a / b;
+    }
+    }
+
 }
 // Esta clase implementa la operación resta
 public class Subtraction
